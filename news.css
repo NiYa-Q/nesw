@@ -2119,6 +2119,7 @@ sup.md-footnote {
   /* background setting */
   --bg-contents: #fff;
   --bg-write: #f5f6f7;
+  --bg-writes: #fff;
   --bg-color: var(--bg-contents);
   --bg-title: none;
   --bg-title-h1: none;
@@ -2225,7 +2226,7 @@ body {
 }
 
 body {
-  background: var(--bg-write);
+  background: var(--bg-writes);
   -webkit-font-smoothing: antialiased;
   margin: 2rem auto;
   /* padding: 2rem; */
